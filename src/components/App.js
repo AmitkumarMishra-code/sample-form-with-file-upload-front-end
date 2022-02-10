@@ -54,7 +54,7 @@ export default function App() {
     // eslint-disable-next-line no-console
 
     try{
-      await axios.post('https://sample-form-with-file-back-end.herokuapp.com/', data, {
+      await axios.post('https://sample-form-with-file-back-end.herokuapp.com/submit', data, {
         headers:{
           "Content-type":"multipart/form-data"
         }
